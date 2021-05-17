@@ -1,0 +1,206 @@
+
+Token: Keyword:        Lexeme:    int
+<Statement List>-><MoreStatement>
+<MoreStatement>-><Statement><MoreStatement>
+<Statement>-><Declaration>
+<Declaration>-><DataType><Id><MoreIds>;
+<DataType>->int
+
+Token: Identifier:      Lexeme:   x
+<Id>->id
+
+Token: seperator :       Lexeme:  ,
+<MoreIds>->,<Id><MoreIds>
+
+Token: Identifier:      Lexeme:   a
+<Id>->id
+
+Token: seperator :       Lexeme:  ,
+<MoreIds>->,<Id><MoreIds>
+
+Token: Identifier:      Lexeme:   b
+<Id>->id
+
+Token: seperator :       Lexeme:  ,
+<MoreIds>->,<Id><MoreIds>
+
+Token: Identifier:      Lexeme:   z
+<Id>->id
+
+Token: seperator :       Lexeme:  ,
+<MoreIds>->,<Id><MoreIds>
+
+Token: Identifier:      Lexeme:   c
+<Id>->id
+
+Token: seperator :       Lexeme:  ,
+<MoreIds>->,<Id><MoreIds>
+
+Token: Identifier:      Lexeme:   d
+<Id>->id
+
+Token: seperator :       Lexeme:  ,
+<MoreIds>->,<Id><MoreIds>
+
+Token: Identifier:      Lexeme:   e
+<Id>->id
+
+Token: seperator :       Lexeme:  ,
+<MoreIds>->,<Id><MoreIds>
+
+Token: Identifier:      Lexeme:   f
+<Id>->id
+
+Token: seperator :       Lexeme:  ,
+<MoreIds>->,<Id><MoreIds>
+
+Token: Identifier:      Lexeme:   g
+<Id>->id
+
+Token: seperator :       Lexeme:  ,
+<MoreIds>->,<Id><MoreIds>
+
+Token: Identifier:      Lexeme:   n
+<Id>->id
+
+Token: seperator :       Lexeme:  ;
+<MoreIds>->Epsilon
+
+Token: Keyword:        Lexeme:    float
+<MoreStatement>-><Statement><MoreStatement>
+<Statement>-><Declaration>
+<Declaration>-><DataType><Id><MoreIds>;
+<DataType>->float
+
+Token: Identifier:      Lexeme:   random
+<Id>->id
+
+Token: seperator :       Lexeme:  ;
+<MoreIds>->Epsilon
+
+Token: Keyword:        Lexeme:    bool
+<MoreStatement>-><Statement><MoreStatement>
+<Statement>-><Declaration>
+<Declaration>-><DataType><Id><MoreIds>;
+<DataType>->bool
+
+Token: Identifier:      Lexeme:   somebool
+<Id>->id
+
+Token: seperator :       Lexeme:  ;
+<MoreIds>->Epsilon
+
+Token: Identifier:      Lexeme:   x
+<MoreStatement>-><Statement><MoreStatement>
+<Statement>-><Assign>
+<Assign>-><Id>=<Expression>;
+<Id>->id
+
+Token: Operator:        Lexeme:   =
+
+Token: Identifier:      Lexeme:   a
+<Expression>-><Term><Expression Prime>
+<Term>-><Factor><Term Prime>
+<Factor>->id
+
+Token: Operator:        Lexeme:   +
+<Term Prime>->Epsilon
+<Expression Prime>->+<Term><Expression Prime>
+
+Token: Identifier:      Lexeme:   b
+<Term>-><Factor><Term Prime>
+<Factor>->id
+
+Token: seperator :       Lexeme:  ;
+<Term Prime>->Epsilon
+<Expression Prime>->Epsilon
+
+Token: Identifier:      Lexeme:   z
+<MoreStatement>-><Statement><MoreStatement>
+<Statement>-><Assign>
+<Assign>-><Id>=<Expression>;
+<Id>->id
+
+Token: Operator:        Lexeme:   =
+
+Token: Identifier:      Lexeme:   c
+<Expression>-><Term><Expression Prime>
+<Term>-><Factor><Term Prime>
+<Factor>->id
+
+Token: Operator:        Lexeme:   +
+<Term Prime>->Epsilon
+<Expression Prime>->+<Term><Expression Prime>
+
+Token: Identifier:      Lexeme:   d
+<Term>-><Factor><Term Prime>
+<Factor>->id
+
+Token: seperator :       Lexeme:  ;
+<Term Prime>->Epsilon
+<Expression Prime>->Epsilon
+
+Token: Identifier:      Lexeme:   a
+<MoreStatement>-><Statement><MoreStatement>
+<Statement>-><Assign>
+<Assign>-><Id>=<Expression>;
+<Id>->id
+
+Token: Operator:        Lexeme:   =
+
+Token: Identifier:      Lexeme:   e
+<Expression>-><Term><Expression Prime>
+<Term>-><Factor><Term Prime>
+<Factor>->id
+
+Token: Operator:        Lexeme:   -
+<Term Prime>->Epsilon
+<Expression Prime>->-<Term><Expression Prime>
+
+Token: Identifier:      Lexeme:   f
+<Term>-><Factor><Term Prime>
+<Factor>->id
+
+Token: seperator :       Lexeme:  ;
+<Term Prime>->Epsilon
+<Expression Prime>->Epsilon
+
+Token: Identifier:      Lexeme:   b
+<MoreStatement>-><Statement><MoreStatement>
+<Statement>-><Assign>
+<Assign>-><Id>=<Expression>;
+<Id>->id
+
+Token: Operator:        Lexeme:   =
+
+Token: Identifier:      Lexeme:   g
+<Expression>-><Term><Expression Prime>
+<Term>-><Factor><Term Prime>
+<Factor>->id
+
+Token: Operator:        Lexeme:   *
+<Term Prime>->*<Factor><Term Prime>
+
+Token: Identifier:      Lexeme:   n
+<Factor>->id
+
+Token: seperator :       Lexeme:  ;
+<Term Prime>->Epsilon
+<Expression Prime>->Epsilon
+<MoreStatement>->Epsilon
+
+************************************************
+Identifier  Line #      Memory      Type        
+************************************************
+x           3           5000        int         
+a           3           5001        int         
+b           3           5002        int         
+z           3           5003        int         
+c           3           5004        int         
+d           3           5005        int         
+e           3           5006        int         
+f           3           5007        int         
+g           3           5008        int         
+n           3           5009        int         
+random      4           5010        float       
+somebool    5           5011        bool        

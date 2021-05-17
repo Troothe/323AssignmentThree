@@ -1,0 +1,9 @@
+﻿  323AssignmentTwo.cpp
+C:\Users\chris\source\repos\323AssignmentTwo\323AssignmentTwo\323AssignmentTwo.cpp(98,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\chris\source\repos\323AssignmentTwo\323AssignmentTwo\323AssignmentTwo.cpp(193,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\chris\source\repos\323AssignmentTwo\323AssignmentTwo\323AssignmentTwo.cpp(311,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\chris\source\repos\323AssignmentTwo\323AssignmentTwo\323AssignmentTwo.cpp(602,20): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\chris\source\repos\323AssignmentTwo\323AssignmentTwo\323AssignmentTwo.cpp(677,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\chris\source\repos\323AssignmentTwo\323AssignmentTwo\323AssignmentTwo.cpp(259): warning C4715: 'findNotTerminalRow': not all control paths return a value
+C:\Users\chris\source\repos\323AssignmentTwo\323AssignmentTwo\323AssignmentTwo.cpp(270): warning C4715: 'findTerminalCol': not all control paths return a value
+  323AssignmentTwo.vcxproj -> C:\Users\chris\source\repos\323AssignmentTwo\Debug\323AssignmentTwo.exe
